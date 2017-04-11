@@ -35,12 +35,12 @@
 
 /* Begin PBXFileReference section */
 		F49DF38D1E9D39F8009A233D /* EventKitTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventKitTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F49DF3901E9D39F8009A233D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F49DF3901E9D39F8009A233D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = EventKitTest1/AppDelegate.swift; sourceTree = "<group>"; };
 		F49DF3921E9D39F8009A233D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F49DF3951E9D39F8009A233D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F49DF3971E9D39F8009A233D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F49DF3971E9D39F8009A233D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = EventKitTest1/Assets.xcassets; sourceTree = "<group>"; };
 		F49DF39A1E9D39F8009A233D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F49DF39C1E9D39F8009A233D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49DF39C1E9D39F8009A233D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = EventKitTest1/Info.plist; sourceTree = "<group>"; };
 		F49DF3A11E9D39F8009A233D /* EventKitTest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventKitTest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49DF3A51E9D39F8009A233D /* EventKitTest1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitTest1Tests.swift; sourceTree = "<group>"; };
 		F49DF3A71E9D39F8009A233D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,12 +97,9 @@
 		F49DF38F1E9D39F8009A233D /* EventKitTest1 */ = {
 			isa = PBXGroup;
 			children = (
-				F49DF3901E9D39F8009A233D /* AppDelegate.swift */,
 				F49DF3921E9D39F8009A233D /* ViewController.swift */,
 				F49DF3941E9D39F8009A233D /* Main.storyboard */,
-				F49DF3971E9D39F8009A233D /* Assets.xcassets */,
-				F49DF3991E9D39F8009A233D /* LaunchScreen.storyboard */,
-				F49DF39C1E9D39F8009A233D /* Info.plist */,
+				F49DF3BE1E9D3A55009A233D /* Support Files */,
 			);
 			path = EventKitTest1;
 			sourceTree = "<group>";
@@ -123,6 +120,18 @@
 				F49DF3B21E9D39F8009A233D /* Info.plist */,
 			);
 			path = EventKitTest1UITests;
+			sourceTree = "<group>";
+		};
+		F49DF3BE1E9D3A55009A233D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F49DF3901E9D39F8009A233D /* AppDelegate.swift */,
+				F49DF3971E9D39F8009A233D /* Assets.xcassets */,
+				F49DF3991E9D39F8009A233D /* LaunchScreen.storyboard */,
+				F49DF39C1E9D39F8009A233D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +319,7 @@
 				F49DF39A1E9D39F8009A233D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = EventKitTest1;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
